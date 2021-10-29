@@ -12,7 +12,7 @@ Python 3.7 & Jupyter notebook
 
 ## 실행방법
 ```
-git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
+$ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
 ```
 
 ## Contributing 하는 방법
