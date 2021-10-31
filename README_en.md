@@ -27,7 +27,7 @@
 <br>
 
 ## :desktop_computer: Prerequisites
-**Python 3.7 & Jupyter notebook**
+Python 3.7 & Jupyter notebook
 
 <br>
 

@@ -27,7 +27,7 @@
 <br>
 
 ## :desktop_computer: 설치 환경
-**Python 3.7 & Jupyter notebook
+Python 3.7 & Jupyter notebook
 
 <br>
 
