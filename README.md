@@ -24,4 +24,6 @@ Commit message는 아래와 같이 작성하면 된다.<br>
 ## 라이센스
 APACHE LICENSE, VERSION 2.0
 
-<img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg">
+<a href ="https://github.com/Smart-Notice-Bot/Smart.Notice.Bot/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=plastic&link=https://github.com/Smart-Notice-Bot/Smart.Notice.Bot/blob/main/LICENSE">
+</a>
