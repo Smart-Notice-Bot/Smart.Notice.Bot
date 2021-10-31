@@ -8,7 +8,7 @@ Smart Notice Bot은 카카오톡을 통해 대학교 공지사항을 알려주�
 4. 그 외 질문은 관련된 공지사항 링크를 보내준다.
 
 ## 설치 환경
-Python 3.7 & Jupyter notebook
+**Python 3.7 & Jupyter notebook**
 
 ## 실행방법
 ```
