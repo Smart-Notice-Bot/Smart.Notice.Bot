@@ -46,6 +46,7 @@ $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
 chromedriver.exe 다운 : https://chromedriver.chromium.org/downloads
 
 2단계 
+
 mian.py와 chromedriver.exe를 같은 위치에 둡니다.
 PyCharm, Jupyter Notebook 등을 사용해 프로그램을 실행 합니다.
 원하는 날짜(월과 일)을 입력합니다.
