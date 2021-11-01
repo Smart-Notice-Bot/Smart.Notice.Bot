@@ -19,10 +19,10 @@
 
 
 ## :star: Features
-1. Filtering only important things among all information.
-2. Notifying filtered information through KakaoTalk.
-3. Making a UI for FAQ.
-4. For other questions, a related notification link is sent.
+1. (In progress)Filtering only important things among all information.
+2. (In progress)Notifying filtered information through KakaoTalk.
+3. (planned)Making a UI for FAQ.
+4. (planned)For other questions, a related notification link is sent.
 
 <br>
 
