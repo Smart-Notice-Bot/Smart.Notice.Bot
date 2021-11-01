@@ -37,6 +37,7 @@ $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
 ```
 
 **<main.py사용법>**
+
 1단계 
 
 (chromedriver.exe가 설치 되어있는 경우는 2단계로 넘어가세요.)
