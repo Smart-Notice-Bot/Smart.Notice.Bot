@@ -36,6 +36,28 @@ Python 3.7 & Jupyter notebook
 $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
 ```
 
+**< How to use main.py >**
+
+Step 1.
+
+(If chromedriver.exe is installed, move on to step 2)
+
+Check the Chrome version of your computer and download chromedriver.exe.
+
+How to check the Chrome version: https://blog.naver.com/kiddwannabe/221539689821
+
+Download chromedriver.exe: https://chromedriver.chromium.org/downloads
+
+Step 2.
+
+Put mian.py and chromedriver.exe in the same folder.
+
+Run the program using PyCharm, Jumpyter Notebook, etc.
+
+Enter the desired date (month and day).
+
+The title and content of the notice on the relevant date are put in variables and printed.
+
 <br>
 
 ## :loudspeaker: Contributing
