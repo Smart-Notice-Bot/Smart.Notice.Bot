@@ -44,7 +44,7 @@ Step 1.
 
 Check the Chrome version of your computer and download chromedriver.exe.
 
-How to check the Chrome version: https://blog.naver.com/kiddwannabe/221539689821
+How to check the Chrome version: https://help.zenplanner.com/hc/en-us/articles/204253654-How-to-Find-Your-Internet-Browser-Version-Number-Google-Chrome
 
 Download chromedriver.exe: https://chromedriver.chromium.org/downloads
 

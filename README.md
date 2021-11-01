@@ -44,9 +44,9 @@ $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
 
 본인 컴퓨터의 크롬 버전을 확인한 후 chromedriver.exe를 다운받습니다. 
 
-크롬 버전 확인 방법 : https://blog.naver.com/kiddwannabe/221539689821
+크롬 버전 확인 방법: https://blog.naver.com/kiddwannabe/221539689821
 
-chromedriver.exe 다운 : https://chromedriver.chromium.org/downloads
+chromedriver.exe 다운: https://chromedriver.chromium.org/downloads
 
 2단계 
 
