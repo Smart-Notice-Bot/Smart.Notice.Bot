@@ -111,6 +111,7 @@ print(friend_id)
 send_url= "https://kapi.kakao.com/v1/api/talk/friends/message/default/send"
 
 #보내는 메세지 data 변수
+#보내고자 하는 문구는 text에 넣으면 됩니다.
 data={
     'receiver_uuids': '["{}"]'.format(friend_id),
     "template_object": json.dumps({
@@ -127,8 +128,6 @@ data={
 response = requests.post(send_url, headers=headers, data=data)
 response.status_code
 
-
-# In[ ]:
 
 
 
