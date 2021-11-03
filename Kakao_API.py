@@ -14,7 +14,7 @@ url="https://kapi.kakao.com/v2/api/talk/memo/default/send"
 
 # Bearer뒤에 공백포함 + 자신의 access Token 을 붙여줍니다.
 headers={
-    "Authorization" : "Bearer " + 'Nrj85W45kXtoqS_GCematIkBDqd9swdPj-o7nQo9cxgAAAF85EraPQ'
+    "Authorization" : "Bearer " + 사용자 access Token
 }
 
 #text에 전송하고자 할 문구를 넣습니다.
@@ -40,7 +40,7 @@ response.status_code
 friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
 
 #Header에도 똑같은 방식으로 정의해줍니다.
-headers={"Authorization" : "Bearer " + "Nrj85W45kXtoqS_GCematIkBDqd9swdPj-o7nQo9cxgAAAF85EraPQ"}
+headers={"Authorization" : "Bearer " + 사용자 access Token}
 
 result = json.loads(requests.get(friend_url, headers=headers).text)
 
@@ -61,7 +61,7 @@ print(friend_id) #친구 목록 확인
 
 
 def getFriendsList(): #친구목록 함수를 이용해 불러오기 2번째 방법입니다. 
-    header = {"Authorization": 'Bearer ' + 'Nrj85W45kXtoqS_GCematIkBDqd9swdPj-o7nQo9cxgAAAF85EraPQ'}
+    header = {"Authorization": 'Bearer ' + 사용자 access Token}
     url = "https://kapi.kakao.com/v1/api/talk/friends" #친구 정보 요청
 
     result = json.loads(requests.get(url, headers=header).text)
@@ -92,7 +92,7 @@ getFriendsList() #함수호출
 friend_url = "https://kapi.kakao.com/v1/api/talk/friends"
 
 #똑같이 정의
-headers={"Authorization" : "Bearer " + 'Nrj85W45kXtoqS_GCematIkBDqd9swdPj-o7nQo9cxgAAAF85EraPQ'}
+headers={"Authorization" : "Bearer " + 사용자 access Token}
 
 result = json.loads(requests.get(friend_url, headers=headers).text)
 
@@ -111,6 +111,7 @@ print(friend_id)
 send_url= "https://kapi.kakao.com/v1/api/talk/friends/message/default/send"
 
 #보내는 메세지 data 변수
+#보내고자 하는 문구는 text 에 넣으면 됩니다.
 data={
     'receiver_uuids': '["{}"]'.format(friend_id),
     "template_object": json.dumps({
@@ -126,10 +127,6 @@ data={
 
 response = requests.post(send_url, headers=headers, data=data)
 response.status_code
-
-
-# In[ ]:
-
 
 
 
