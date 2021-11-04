@@ -1,9 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
 # In[2]:
 
-
+import pandas as pd
 import requests
 import json
 
@@ -14,22 +20,31 @@ url="https://kapi.kakao.com/v2/api/talk/memo/default/send"
 
 # Bearer뒤에 공백포함 + 자신의 access Token 을 붙여줍니다.
 headers={
-    "Authorization" : "Bearer " + 사용자 access Token
+    "Authorization" : "Bearer " + '사용자 access Token'
 }
+
+# 전송할 내용을 읽어옵니다.
+df = pd.read_csv('notice')
+title = [df.iloc[i,0] for i in range(len(df))]
+link = [df.iloc[i,1] for i in range(len(df))]
 
 #text에 전송하고자 할 문구를 넣습니다.
-data={
-    "template_object": json.dumps({
-        "object_type":"check send message",
-        "text":"Please",
-        "link":{
-            "web_url":"www.naver.com"
-        }
-    })
-}
+for i in range(len(df)):
+    data = {
+        "template_object" : json.dumps({ "object_type" : "text",
+                                         "text" : title[i],
+                                         "link" : {
+                                                     "web_url" : link[i],
+                                                     "mobile_web_url": link[i]
+                                                  },
+                                        "button_title":'바로 확인'
+        })
+    }
+    response = requests.post(url, headers=headers, data=data)
+    print(response.status_code)
 
-response = requests.post(url, headers=headers, data=data)
-response.status_code
+
+# In[ ]:
 
 
 # In[3]:
@@ -111,22 +126,21 @@ print(friend_id)
 send_url= "https://kapi.kakao.com/v1/api/talk/friends/message/default/send"
 
 #보내는 메세지 data 변수
-#보내고자 하는 문구는 text 에 넣으면 됩니다.
-data={
-    'receiver_uuids': '["{}"]'.format(friend_id),
-    "template_object": json.dumps({
-        "object_type":"text",
-        "text":"성공입니다!",
-        "link":{
-            "web_url":"www.daum.net",
-            "web_url":"www.naver.com"
-        },
-        "button_title": "바로 확인"
-    })
-}
+#보내고자 하는 문구는 text에 넣으면 됩니다.
 
-response = requests.post(send_url, headers=headers, data=data)
-response.status_code
-
-
+for i in range(len(df)):
+    data={
+        'receiver_uuids': '["{}"]'.format(friend_id),
+        "template_object": json.dumps({
+            "object_type":"text",
+            "text": title[i],
+            "link":{
+                "web_url" : link[i],
+                "mobile_web_url": link[i]
+            },
+            "button_title": "바로 확인"
+        })
+    }
+    response = requests.post(send_url, headers=headers, data=data)
+    print(response.status_code)
 
