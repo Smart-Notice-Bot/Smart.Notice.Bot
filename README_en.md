@@ -12,17 +12,16 @@
     <p>
 </h4>
 
-<p align='center' style='font-size:150%'>Smart Notice Bot is an open source project that sends a main notice of university through KakaoTalk.</p>
+<p align='center' style='font-size:150%'>Smart Notice Bot is an open source project that sends a main notice of university through email</p>
 
 <br>
 
 
 
 ## :star: Features
-1. (In progress)Filtering only important things among all information.
-2. (In progress)Notifying filtered information through KakaoTalk.
-3. (planned)Making a UI for FAQ.
-4. (planned)For other questions, a related notification link is sent.
+1. (In progress)After signing up for membership on the website, select your department, e-mail, and interests.
+2. (planned)Whenever articles such as what users need (employment, start-up, graduate school, internship, etc.) are updated, they are sent by e-mail.
+3. (planned)Frequent questions (FAQs) are provided on the website.
 
 <br>
 
@@ -34,6 +33,7 @@ Python 3.7 & Jupyter notebook
 ## :white_check_mark: Installation
 ```
 $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
+$ python manage.py runserver
 ```
 
 **< How to use main.py >**

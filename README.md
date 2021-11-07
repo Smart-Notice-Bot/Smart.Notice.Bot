@@ -12,17 +12,16 @@
     <p>
 </h4>
 <br>
-<p align='center' style='font-size:150%'>Smart Notice Bot은 카카오톡을 통해 대학교 공지사항을 알려주는 오픈소스 프로젝트입니다. </p>
+<p align='center' style='font-size:150%'>Smart Notice Bot은 이메일을 통해 대학교 공지사항을 알려주는 오픈소스 프로젝트입니다. </p>
 
 <br>
 
 
 
 ## :star: 특징
-1. (진행 중)공지사항 중에 중요한 것들만 필터링한다.
-2. (진행 중)카카오톡을 통해 필터링된 정보를 알려준다.
-3. (계획)자주하는 질문(FAQ)은 따로 UI를 만들어 제공한다.
-4. (계획)그 외 질문은 관련된 공지사항 링크를 보내준다.
+1. (진행 중)홈페이지에 회원가입을 한 후 본인 학과, 이메일, 관심사를 선택한다.
+2. (계획)공지사항 중에 사용자가 필요로 하는 것(취업, 창업, 대학원, 인턴 등)과 같은 글들이 갱신될 때마다 이메일로 보내준다.
+3. (계획)자주하는 질문(FAQ)은 홈페이지에 제공한다.
 
 <br>
 
@@ -34,6 +33,7 @@ Python 3.7 & Jupyter notebook
 ## :white_check_mark: 실행방법
 ```
 $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
+$ python manage.py runserver
 ```
 
 **<main.py사용법>**
