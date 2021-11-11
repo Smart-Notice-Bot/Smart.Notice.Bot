@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from django.core.paginator import Paginator
 from .models import Blog
+from .models import Comment
 from .forms import BlogUpdate
 
 def home(request):
@@ -15,7 +16,14 @@ def home(request):
 
 def detail(request, blog_id):
     blog_detail = get_object_or_404(Blog, pk=blog_id)
-    return render(request, 'detail.html', {'blog': blog_detail})
+    comments = Comment.objects.filter(blog = blog_id)
+    if request.method =='POST':
+        comment = Comment()
+        comment.blog = blog_detail
+        comment.body = request.POST['body']
+        comment.date = timezone.now()
+        comment.save()
+    return render(request, 'detail.html', {'blog': blog_detail, 'comments':comments})
 
 def create(request):
     return render(request, 'create.html')
@@ -24,10 +32,13 @@ def postcreate(request):
     blog = Blog()
     blog.title = request.POST['title']
     blog.body = request.POST['body']
-    blog.images = request.FILES['images']
+    try:
+	    blog.image = request.FILES['image']
+    except:
+	    blog.image = None
     blog.pub_date = timezone.datetime.now()
     blog.save()
-    return redirect('/crudapp/detail/' + str(blog.id))
+    return redirect('/faq/detail/' + str(blog.id))
 
 def update(request, blog_id):
     blog = Blog.objects.get(id=blog_id)
@@ -39,7 +50,7 @@ def update(request, blog_id):
             blog.body = form.cleaned_data['body']
             blog.pub_date=timezone.now()
             blog.save()
-            return redirect('/crudapp/detail/' + str(blog.id))
+            return redirect('/faq/detail/' + str(blog.id))
     else:
         form = BlogUpdate(instance = blog)
  

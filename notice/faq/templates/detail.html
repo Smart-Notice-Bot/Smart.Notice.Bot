@@ -19,5 +19,22 @@
           </div>
         </div>
       </div>
-        
+    <div class="container">
+      <!--생략-->
+      
+       댓글 : 
+      {% for comment in comments %}
+      {{comment.body}} - {{comment.date}} - {{user.username}}
+      <br>
+      {% endfor %}
+    
+       <br><br>
+       댓글 달기 : 
+       <form method="POST">
+        {% csrf_token %}
+        <input name="body" type="text" value="">
+        <input class="btn btn-primary" type="submit" value="저장">
+      </form>
+      
+      </div>      
 {% endblock %}

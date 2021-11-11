@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 class Blog(models.Model):
     title = models.CharField(max_length=200)
@@ -11,3 +12,8 @@ class Blog(models.Model):
 
     def summary(self):
         return self.body[:100]
+
+class Comment(models.Model):
+    blog = models.ForeignKey(Blog, on_delete=models.CASCADE, null=True)
+    body = models.TextField()
+    date = models.DateTimeField(default=timezone.now)
