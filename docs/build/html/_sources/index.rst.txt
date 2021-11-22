@@ -11,3 +11,5 @@ Welcome to smart_notice_bot's documentation!
    :caption: FIRSTSTEPS:
 
    firststeps/AboutTheProject
+   firststeps/Install
+   firststeps/How to use
