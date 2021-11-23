@@ -67,9 +67,9 @@ This folder is intended to run web pages and collect subscribers' emails and int
 
    ``$ python -m venv [folder_name]``
 
-   ``$ cd [folder_name]/Scripts(this is for window)``
+   ``$ cd [folder_name]/Scripts`` (this is for window)
 
-   ``$ source [folder_name]/bin(this is for mac)``
+   ``$ source [folder_name]/bin`` (this is for mac)
 
    ``$ activate``
 
