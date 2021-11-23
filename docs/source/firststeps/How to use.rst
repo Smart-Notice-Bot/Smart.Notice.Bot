@@ -65,37 +65,37 @@ This folder is intended to run web pages and collect subscribers' emails and int
 
 #. Create a virtual environment.
 
-   $ python -m venv [folder_name]
+   ``$ python -m venv [folder_name]``
 
-   $ cd [folder_name]/Scripts(this is for window)
+   ``$ cd [folder_name]/Scripts(this is for window)``
 
-   $ source [folder_name]/bin(this is for mac)
+   ``$ source [folder_name]/bin(this is for mac)``
 
-   $ activate
+   ``$ activate``
 
    Please check if the (folder_name) is displayed.
 
 #. Installing the Djago
 
-   $ pip install django
+   ``$ pip install django``
 
 #. Create a migration.
 
-   $ python manage.py makemigrations
+   ``$ python manage.py makemigrations``
 
    If there's warnings or errors,
-    
-     $ python -m pip install --upgrade pip
 
-     $ python -m pip install Pillow
+     ``$ python -m pip install --upgrade pip``
+
+     ``$ python -m pip install Pillow``
       
 #. Create a database.
 
-   $ python manage.py migrate 
+   ``$ python manage.py migrate``
 
 #. Project execution.
 
-   $ python manage.py runserver 
+   ``$ python manage.py runserver``
 
 #. If you enter an address such as 'http://127.0.0.1:8000/' in your browser, you will see the web page.
 
