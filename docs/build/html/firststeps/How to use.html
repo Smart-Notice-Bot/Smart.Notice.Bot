@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>How to use &mdash; smart_notice_bot 1.0.0 documentation</title>
@@ -36,17 +36,19 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption"><span class="caption-text">FIRSTSTEPS:</span></p>
+              <p class="caption" role="heading"><span class="caption-text">FIRSTSTEPS:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="AboutTheProject.html">About The Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Install.html">Install</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">How to use</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#python">Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#django">Django</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#chromedriver">chromedriver</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-getuserdata-py">How to use GetUserData.py</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-crawling-py">How to use crawling.py</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-use-sendemail-py">How to use sendEmail.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-notice-folder">How to use notice folder</a></li>
 </ul>
 </li>
 </ul>
@@ -81,6 +83,7 @@
 <h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline"></a></h2>
 <ul class="simple">
 <li><p>Smart.Notice.Bot must be run with Python 3.7 or higher and the appropriate chromedriver.</p></li>
+<li><p>Django</p></li>
 </ul>
 </section>
 <section id="python">
@@ -88,6 +91,14 @@
 <ol class="arabic simple">
 <li><p>Please download Python version 3.7 or higher.</p></li>
 <li><p><a class="reference external" href="https://www.python.org/downloads/">Python download site</a></p></li>
+</ol>
+</section>
+<section id="django">
+<h2>Django<a class="headerlink" href="#django" title="Permalink to this headline"></a></h2>
+<p>Please install Django</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://docs.djangoproject.com/en/3.2/topics/install/#how-to-install-django">How to install Django(English)</a></p></li>
+<li><p><a class="reference external" href="https://docs.djangoproject.com/ko/3.2/topics/install/#how-to-install-django">How to install Django(Korean)</a></p></li>
 </ol>
 </section>
 <section id="chromedriver">
@@ -120,6 +131,44 @@
 <li><p>Run the program using PyCharm, Jumpyter Notebook, etc.</p></li>
 <li><p>Enter the ID and password of your email.</p></li>
 <li><p>Select the notice data classified in crawling.py and send an e-mail according to the user’s preference.</p></li>
+</ol>
+</section>
+<section id="how-to-use-notice-folder">
+<h2>How to use notice folder<a class="headerlink" href="#how-to-use-notice-folder" title="Permalink to this headline"></a></h2>
+<p>This folder is intended to run web pages and collect subscribers’ emails and interests.</p>
+<ol class="arabic">
+<li><p>Create a virtual environment.</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">-m</span> <span class="pre">venv</span> <span class="pre">[folder_name]</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">[folder_name]/Scripts(this</span> <span class="pre">is</span> <span class="pre">for</span> <span class="pre">window)</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">source</span> <span class="pre">[folder_name]/bin(this</span> <span class="pre">is</span> <span class="pre">for</span> <span class="pre">mac)</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">activate</span></code></p>
+<p>Please check if the (folder_name) is displayed.</p>
+</li>
+<li><p>Installing the Djago</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">django</span></code></p>
+</li>
+<li><p>Create a migration.</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">manage.py</span> <span class="pre">makemigrations</span></code></p>
+<p>If there’s warnings or errors,</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">pip</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">Pillow</span></code></p>
+</div></blockquote>
+</li>
+<li><p>Create a database.</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">manage.py</span> <span class="pre">migrate</span></code></p>
+</li>
+<li><p>Project execution.</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">python</span> <span class="pre">manage.py</span> <span class="pre">runserver</span></code></p>
+</li>
+<li><p>If you enter an address such as ‘<a class="reference external" href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>’ in your browser, you will see the web page.</p>
+<p>The address can be checked in the cmd/Terminal.</p>
+</li>
+<li><p>You can modify and use the .py(extension) files as you want.</p>
+<p>If you are curious about the .py files in the ‘notice/notice/’, please refer to below.</p>
+<p><a class="reference external" href="https://docs.djangoproject.com/en/3.2/intro/tutorial01/">Django tutorial01(English)</a></p>
+<p><a class="reference external" href="https://docs.djangoproject.com/ko/3.2/intro/tutorial01/">Django tutorial01(Korean)</a></p>
+</li>
 </ol>
 </section>
 </section>
