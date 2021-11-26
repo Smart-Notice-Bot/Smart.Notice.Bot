@@ -20,11 +20,16 @@
             <li class="nav-item">
               <a class="nav-link"><span id="user_name">{{ user.username }}</span>님 반갑습니다!</a>
             </li>
+            {% if user.is_admin %}
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'create' %}">new post</a>
+              <a class="nav-link" href="{% url 'create' %}">FAQ 등록</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'logout' %}">logout</a>
+              <a class="nav-link" href="{% url 'management' %}">사용자관리</a>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'logout' %}">로그아웃</a>
             </li>
             {% else %}
             <li class="nav-item">

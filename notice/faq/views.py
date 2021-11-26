@@ -90,3 +90,6 @@ def search(request):
     
     else:
         return render(request, 'search.html')
+
+def management(request):
+    return render(request, 'management.html')

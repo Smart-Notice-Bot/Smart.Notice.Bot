@@ -1,0 +1,704 @@
+2021-11-26 19:59:20,343 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:00,067 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:00,926 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:07,999 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:08,800 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:10,126 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:10,872 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:16,727 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:17,721 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:34,635 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:35,477 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:39,058 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:40,084 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:41,542 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:02:42,665 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:02:50,271 [INFO] accounts.views: username = root
+2021-11-26 20:02:50,271 [INFO] accounts.views: password = rootroot
+2021-11-26 20:04:30,744 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:04:31,528 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:04:34,344 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:04:35,322 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:04:37,186 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:04:38,057 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:04:39,432 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:04:40,229 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:04:43,027 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:04:44,171 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:04:47,006 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:04:47,772 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:05:35,053 [INFO] accounts.views: username = root
+2021-11-26 20:05:35,053 [INFO] accounts.views: password = rootroot
+2021-11-26 20:05:35,252 [INFO] accounts.views: use = None
+2021-11-26 20:08:48,823 [INFO] accounts.views: username = hyoju
+2021-11-26 20:08:48,823 [INFO] accounts.views: password = 1234
+2021-11-26 20:08:48,990 [INFO] accounts.views: use = hyoju
+2021-11-26 20:14:02,192 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-26 20:14:03,103 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:14:10,240 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-26 20:14:11,085 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:14:17,809 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-26 20:14:19,007 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:18:29,998 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:18:36,087 [INFO] accounts.views: username = root
+2021-11-26 20:18:36,088 [INFO] accounts.views: password = rootroot
+2021-11-26 20:18:36,414 [INFO] accounts.views: use = None
+2021-11-26 20:20:49,289 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:20:58,803 [INFO] accounts.views: username = root
+2021-11-26 20:20:58,803 [INFO] accounts.views: password = rootroot
+2021-11-26 20:20:58,987 [INFO] accounts.views: user = None
+2021-11-26 20:21:02,872 [INFO] accounts.views: username = root
+2021-11-26 20:21:02,872 [INFO] accounts.views: password = rootroot
+2021-11-26 20:21:03,049 [INFO] accounts.views: user = None
+2021-11-26 20:25:09,018 [INFO] accounts.management.commands.inituser: init_username = root
+2021-11-26 20:25:09,018 [INFO] accounts.management.commands.inituser: init_password = 1234
+2021-11-26 20:25:09,018 [INFO] accounts.management.commands.inituser: init_action = reset
+2021-11-26 20:25:35,838 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:25:54,286 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 20:25:59,863 [INFO] accounts.views: username = root
+2021-11-26 20:25:59,863 [INFO] accounts.views: password = 1234
+2021-11-26 20:26:00,189 [INFO] accounts.views: user = None
+2021-11-26 20:27:30,441 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 20:27:31,227 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:12:42,432 [INFO] accounts.management.commands.inituser: init_username = root
+2021-11-26 21:12:42,432 [INFO] accounts.management.commands.inituser: init_password = 1234
+2021-11-26 21:12:42,432 [INFO] accounts.management.commands.inituser: init_action = create_admin
+2021-11-26 21:12:42,447 [INFO] accounts.management.commands.inituser: user create = root
+2021-11-26 21:12:50,824 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:12:59,710 [INFO] accounts.views: username = root
+2021-11-26 21:12:59,710 [INFO] accounts.views: password = 1234
+2021-11-26 21:12:59,887 [INFO] accounts.views: user = root
+2021-11-26 21:13:12,742 [INFO] accounts.views: username = root
+2021-11-26 21:13:12,742 [INFO] accounts.views: password = 1234
+2021-11-26 21:13:12,912 [INFO] accounts.views: user = root
+2021-11-26 21:13:39,277 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:13:40,611 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:13:43,108 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:13:44,050 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:13:52,339 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:13:53,260 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:17:23,797 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:17:24,522 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:17:45,568 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:17:46,539 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:17:48,318 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:17:49,170 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:17:55,448 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:17:56,548 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:18:11,427 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:18:12,357 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:18:13,974 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:18:14,727 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:18:23,872 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:18:24,601 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:18:30,212 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:18:31,239 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:19:02,072 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:19:02,920 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:19:06,824 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:19:07,823 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:19:13,806 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:19:14,866 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:19:56,516 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-26 21:19:57,585 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:19:59,296 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-26 21:20:00,169 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:20:14,933 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:20:15,753 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:20:29,521 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:20:30,407 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:21:00,559 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:21:31,144 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 13, in signup
+    user = User.objects.create(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: create() takes 1 positional argument but 2 were given
+2021-11-26 21:22:11,906 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:22:12,942 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:22:21,291 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:22:22,219 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:22:45,200 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 13, in signup
+    user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'])
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: user.username
+2021-11-26 21:24:04,936 [INFO] accounts.management.commands.inituser: init_username = root
+2021-11-26 21:24:04,936 [INFO] accounts.management.commands.inituser: init_password = 1234
+2021-11-26 21:24:04,937 [INFO] accounts.management.commands.inituser: init_action = create_admin
+2021-11-26 21:24:04,952 [INFO] accounts.management.commands.inituser: user create = root
+2021-11-26 21:24:10,156 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:24:32,935 [INFO] accounts.views: username = root
+2021-11-26 21:24:32,936 [INFO] accounts.views: password = 123456
+2021-11-26 21:24:33,112 [INFO] accounts.views: user = None
+2021-11-26 21:25:00,468 [INFO] accounts.views: username = root
+2021-11-26 21:25:00,469 [INFO] accounts.views: password = 1234
+2021-11-26 21:25:00,650 [INFO] accounts.views: user = root
+2021-11-26 21:25:25,642 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 13, in signup
+    user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'])
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: user.username
+2021-11-26 21:28:24,370 [INFO] accounts.views: username = hj
+2021-11-26 21:28:24,370 [INFO] accounts.views: password = 123456
+2021-11-26 21:28:24,376 [INFO] accounts.views: user = None
+2021-11-26 21:29:49,445 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:29:50,465 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:29:55,737 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:29:56,690 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:29:59,516 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:30:00,600 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:30:04,701 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:30:05,617 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:30:28,874 [INFO] accounts.views: user = tmp
+2021-11-26 21:30:40,385 [INFO] accounts.views: username = tmp
+2021-11-26 21:30:40,385 [INFO] accounts.views: password = 123
+2021-11-26 21:30:40,391 [INFO] accounts.views: user = None
+2021-11-26 21:32:19,625 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:32:20,431 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:32:28,599 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:32:29,384 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:32:35,543 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:32:36,501 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:32:44,630 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:32:45,536 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:33:07,713 [INFO] accounts.views: user = tt
+2021-11-26 21:33:07,714 [INFO] accounts.views: user = 1234
+2021-11-26 21:33:57,326 [INFO] accounts.views: username = hj
+2021-11-26 21:33:57,326 [INFO] accounts.views: password = 123456
+2021-11-26 21:33:57,329 [INFO] accounts.views: user = None
+2021-11-26 21:34:02,203 [INFO] accounts.views: username = hj
+2021-11-26 21:34:02,204 [INFO] accounts.views: password = 1234
+2021-11-26 21:34:02,207 [INFO] accounts.views: user = None
+2021-11-26 21:34:06,023 [INFO] accounts.views: username = root
+2021-11-26 21:34:06,023 [INFO] accounts.views: password = 1234
+2021-11-26 21:34:06,199 [INFO] accounts.views: user = root
+2021-11-26 21:35:09,404 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:35:10,414 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:35:14,384 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:35:15,416 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:35:49,930 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:36:35,782 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:36:54,203 [INFO] accounts.views: username = root
+2021-11-26 21:36:54,204 [INFO] accounts.views: password = 1234
+2021-11-26 21:36:54,418 [INFO] accounts.views: user = root
+2021-11-26 21:37:14,032 [INFO] accounts.views: user = hyoju
+2021-11-26 21:37:14,032 [INFO] accounts.views: user = 1234
+2021-11-26 21:42:20,593 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:42:21,498 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:42:24,366 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-26 21:42:25,568 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 21:46:02,926 [INFO] accounts.views: username = root
+2021-11-26 21:46:03,113 [INFO] accounts.views: user = root
+2021-11-26 21:46:16,196 [INFO] accounts.views: username = hyoju
+2021-11-26 21:46:16,370 [INFO] accounts.views: user = None
+2021-11-26 21:46:27,527 [INFO] accounts.views: username = hyoju
+2021-11-26 21:46:27,697 [INFO] accounts.views: user = hyoju
+2021-11-26 22:50:53,764 [INFO] accounts.views: username = root
+2021-11-26 22:50:53,953 [INFO] accounts.views: user = root
+2021-11-26 22:52:24,178 [ERROR] django.request: Internal Server Error: /faq/create/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 29, in create
+    return render(request, 'create.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:52:27,089 [ERROR] django.request: Internal Server Error: /faq/create/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 29, in create
+    return render(request, 'create.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:53:09,997 [ERROR] django.request: Internal Server Error: /faq/create/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 29, in create
+    return render(request, 'create.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:53:42,431 [ERROR] django.request: Internal Server Error: /faq/create/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 29, in create
+    return render(request, 'create.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:53:43,362 [ERROR] django.request: Internal Server Error: /faq/create/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 29, in create
+    return render(request, 'create.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:53:50,222 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 15, in home
+    return render(request,'home.html', {'blogs':blogs,'posts':posts} )
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:54:22,522 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:54:25,432 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 15, in home
+    return render(request,'home.html', {'blogs':blogs,'posts':posts} )
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user' not found. 'user' is not a valid view function or pattern name.
+2021-11-26 22:55:12,376 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 15, in home
+    return render(request,'home.html', {'blogs':blogs,'posts':posts} )
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'management' not found. 'management' is not a valid view function or pattern name.
+2021-11-26 22:55:35,583 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-26 22:55:36,476 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:55:42,489 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-26 22:55:43,303 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:55:52,414 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-26 22:55:53,177 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:55:57,782 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-26 22:55:58,926 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:56:24,012 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-26 22:56:25,025 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:56:57,439 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-26 22:56:58,455 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:57:01,349 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-26 22:57:02,711 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:57:14,546 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-26 22:57:15,277 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-26 22:57:34,027 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-26 22:57:35,340 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
