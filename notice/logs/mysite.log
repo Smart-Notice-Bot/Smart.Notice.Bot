@@ -1245,3 +1245,6 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-28 21:37:07,993 [INFO] accounts.views: user = admin
 2021-11-28 21:38:46,601 [INFO] accounts.views: username = admin
 2021-11-28 21:38:46,774 [INFO] accounts.views: user = admin
+2021-11-28 21:45:42,377 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:48:08,245 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-28 21:48:09,272 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
