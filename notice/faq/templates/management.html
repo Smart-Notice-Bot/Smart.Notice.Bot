@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<button type="button" class="btn btn-primary" >이메일 보내기</button>
+
+<table class="table table-striped" style="margin-top: 20px">
+    <thead>
+      <tr>
+        <th scope="col">이름</th>
+        <th scope="col">이메일</th>
+        <th scope="col">학과</th>
+        <th scope="col">취업</th>
+        <th scope="col">창업</th>
+        <th scope="col">인턴</th>
+        <th scope="col">대학원</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+      <tr>
+        <th scope="row">{{user.username}}</th>
+        <td>{{user.email}}</td>
+        <td>{{user.dept}}</td>
+        <td>{{user.employ}}</td>
+        <td>{{user.founded}}</td>
+        <td>{{user.intern}}</td>
+        <td>{{user.graduate_school}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}

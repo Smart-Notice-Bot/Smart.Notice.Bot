@@ -21,6 +21,11 @@ class User(AbstractBaseUser):
     email=models.TextField(null=True)
     admin_type=models.TextField(default=AdminType.USER)
     dept=models.TextField(null=True)
+    employ=models.TextField(null=True)
+    intern=models.TextField(null=True)
+    founded=models.TextField(null=True)
+    graduate_school=models.TextField(null=True)
+    
     USERNAME_FIELD = "username"
     REQUIRED_FIELDS = []
 

@@ -702,3 +702,546 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'management' not found. 'mana
 2021-11-26 22:57:15,277 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2021-11-26 22:57:34,027 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
 2021-11-26 22:57:35,340 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:09:01,513 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:09:06,572 [WARNING] django.request: Not Found: /favicon.ico
+2021-11-28 19:09:12,888 [INFO] accounts.views: username = admin
+2021-11-28 19:09:13,057 [INFO] accounts.views: user = admin
+2021-11-28 19:15:34,672 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:15:35,732 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:15:40,667 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:15:41,409 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:15:55,860 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:15:56,863 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:15:58,712 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:15:59,553 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:16:01,046 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:16:01,902 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:16:27,424 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:16:28,381 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:16:38,428 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:16:39,322 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:16:47,136 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:16:47,933 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:16:49,570 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:16:50,505 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:17:19,222 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:17:19,983 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:17:29,819 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:17:30,622 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:17:45,330 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:17:46,640 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:18:05,240 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:18:06,338 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:18:15,617 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:18:16,452 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:18:21,080 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:18:21,931 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:18:24,418 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:18:25,302 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:18:40,617 [ERROR] django.request: Internal Server Error: /faq/management
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 22, in management
+    user = User.objects.filter(admintype='user')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\db\models\sql\query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'admintype' into field. Choices are: admin_type, dept, email, id, last_login, logentry, password, username
+2021-11-28 19:19:36,760 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:19:37,584 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:20:06,254 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:20:06,979 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:20:10,858 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:20:12,030 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:21:02,309 [INFO] accounts.views: username = admin
+2021-11-28 19:21:02,473 [INFO] accounts.views: user = admin
+2021-11-28 19:21:51,464 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:21:52,298 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:22:08,063 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:22:09,064 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:27:07,511 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:27:08,372 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:27:16,560 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:27:17,413 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:27:21,343 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:27:22,121 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:27:26,003 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:27:27,333 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:27:57,567 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-28 19:27:57,568 [WARNING] django.request: Not Found: /static/update.png
+2021-11-28 19:28:38,302 [WARNING] django.request: Not Found: /static/update.png
+2021-11-28 19:28:38,306 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-28 19:31:08,862 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:31:09,685 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:31:12,549 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:31:13,629 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:31:15,332 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:31:16,069 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:33:12,231 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:33:13,199 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:33:17,190 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 19:33:18,083 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 19:37:00,199 [INFO] accounts.views: username = admin
+2021-11-28 19:37:00,378 [INFO] accounts.views: user = admin
+2021-11-28 19:46:56,410 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-11-28 19:46:56,615 [WARNING] django.request: Bad Request: /
+2021-11-28 19:58:28,119 [WARNING] django.request: Not Found: /static/update.png
+2021-11-28 19:58:28,120 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-28 20:03:05,150 [INFO] accounts.views: username = admin
+2021-11-28 20:03:05,329 [INFO] accounts.views: user = admin
+2021-11-28 20:13:02,421 [INFO] accounts.views: username = 1234
+2021-11-28 20:13:02,604 [INFO] accounts.views: user = 1234
+2021-11-28 20:13:10,348 [INFO] accounts.views: username = admin
+2021-11-28 20:13:10,520 [INFO] accounts.views: user = admin
+2021-11-28 20:15:00,704 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:15:01,660 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:15:09,571 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:15:10,958 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:42:12,920 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:42:14,212 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:42:37,914 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:42:38,801 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:42:59,517 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:43:00,497 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:43:31,898 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:43:33,127 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:43:45,833 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:43:46,539 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:44:03,848 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:44:04,751 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:44:11,467 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:44:12,546 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:44:16,123 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 20:44:17,098 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:51:36,155 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 20:52:12,167 [INFO] accounts.views: username = admin
+2021-11-28 20:52:12,331 [INFO] accounts.views: user = admin
+2021-11-28 21:08:01,993 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:08:02,957 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:08:06,922 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:08:07,761 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:08:12,617 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:08:13,416 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:08:17,235 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:08:18,194 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:08:20,679 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:08:21,596 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:08:31,878 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:08:32,887 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:09:48,830 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:10:28,625 [INFO] accounts.views: username = admin
+2021-11-28 21:10:28,797 [INFO] accounts.views: user = admin
+2021-11-28 21:11:45,486 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\models.py changed, reloading.
+2021-11-28 21:11:46,305 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:00,304 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:01,272 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:05,277 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:06,035 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:28,759 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:29,574 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:31,226 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:31,923 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:33,594 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:34,712 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:40,851 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:41,678 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:44,518 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:45,467 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:49,438 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:50,314 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:52,029 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:13:52,959 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:13:59,793 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:14:00,628 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:14:02,334 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:14:03,310 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:14:08,458 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:14:09,436 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:14:19,657 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py changed, reloading.
+2021-11-28 21:14:20,523 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:14:58,970 [INFO] accounts.views: username = admin
+2021-11-28 21:14:59,148 [INFO] accounts.views: user = admin
+2021-11-28 21:16:17,376 [INFO] accounts.views: username = admin
+2021-11-28 21:16:17,544 [INFO] accounts.views: user = admin
+2021-11-28 21:18:33,867 [INFO] accounts.views: username = 1234
+2021-11-28 21:18:34,053 [INFO] accounts.views: user = 1234
+2021-11-28 21:18:34,100 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 19, in home
+    return render(request,'home.html', {'blogs':blogs,'posts':posts} )
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit' not found. 'edit' is not a valid view function or pattern name.
+2021-11-28 21:24:52,609 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-28 21:24:53,493 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:24:56,364 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-28 21:24:57,325 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:25:00,890 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-28 21:25:02,006 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:25:03,455 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-28 21:25:04,187 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:25:53,559 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 21:25:54,586 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:25:56,083 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 21:25:56,878 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:26:02,928 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 21:26:03,810 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:26:07,605 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 21:26:08,638 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:26:12,388 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-28 21:26:13,353 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:29:40,735 [INFO] accounts.views: username = admin
+2021-11-28 21:29:40,898 [INFO] accounts.views: user = admin
+2021-11-28 21:33:43,460 [ERROR] django.request: Internal Server Error: /faq/management
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: "user.dept=='Software'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 23, in management
+    return render(request, 'management.html', {'users': user})
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\cached.py", line 58, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '=='Software'' from 'user.dept=='Software''
+2021-11-28 21:33:45,050 [ERROR] django.request: Internal Server Error: /faq/management
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: "user.dept=='Software'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 23, in management
+    return render(request, 'management.html', {'users': user})
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\cached.py", line 58, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '=='Software'' from 'user.dept=='Software''
+2021-11-28 21:34:29,356 [ERROR] django.request: Internal Server Error: /faq/management
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: "user.dept='Software'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 23, in management
+    return render(request, 'management.html', {'users': user})
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\cached.py", line 58, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '='Software'' from 'user.dept='Software''
+2021-11-28 21:34:50,089 [ERROR] django.request: Internal Server Error: /faq/management
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'user.dept==Software'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 23, in management
+    return render(request, 'management.html', {'users': user})
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\cached.py", line 58, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==Software' from 'user.dept==Software'
+2021-11-28 21:36:53,954 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-28 21:37:07,816 [INFO] accounts.views: username = admin
+2021-11-28 21:37:07,993 [INFO] accounts.views: user = admin
+2021-11-28 21:38:46,601 [INFO] accounts.views: username = admin
+2021-11-28 21:38:46,774 [INFO] accounts.views: user = admin

@@ -10,7 +10,7 @@ logger=logging.getLogger(__name__)
 def signup(request):
     if request.method == 'POST':
         if request.POST['password1'] == request.POST['password2']:
-            user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'])
+            user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'], employ=request.POST['employ'], founded=request.POST['founded'], intern=request.POST['intern'], graduate_school=request.POST['graduate_school'])
             user.set_password(request.POST['password1'])
             user.save()
             auth.login(request, user)

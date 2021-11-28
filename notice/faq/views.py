@@ -4,6 +4,10 @@ from django.core.paginator import Paginator
 from .models import Blog
 from .models import Comment
 from .forms import BlogUpdate
+from accounts.models import User, AdminType
+
+import logging
+logger=logging.getLogger(__name__)
 
 def home(request):
     blogs = Blog.objects.order_by('-id')
@@ -13,6 +17,13 @@ def home(request):
     posts = paginator.get_page(page)
 
     return render(request,'home.html', {'blogs':blogs,'posts':posts} )
+
+def management(request):
+    user = User.objects.filter(admin_type=AdminType.USER)
+    return render(request, 'management.html', {'users': user})
+
+def edit(request):
+    return render(request, 'edit.html')
 
 def detail(request, blog_id):
     blog_detail = get_object_or_404(Blog, pk=blog_id)
@@ -90,6 +101,3 @@ def search(request):
     
     else:
         return render(request, 'search.html')
-
-def management(request):
-    return render(request, 'management.html')
