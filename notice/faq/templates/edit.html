@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ user.username}}님 정보</h2>
+
+<table class="table table-striped" style="margin-top: 20px">
+    <thead>
+      <tr>
+        <th scope="col">이름</th>
+        <th scope="col">이메일</th>
+        <th scope="col">학과</th>
+        <th scope="col">취업</th>
+        <th scope="col">창업</th>
+        <th scope="col">인턴</th>
+        <th scope="col">대학원</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{user.username}}</th>
+        <td>{{user.email}}</td>
+        <td>{{user.dept}}</td>
+        <td>{{user.employ}}</td>
+        <td>{{user.founded}}</td>
+        <td>{{user.intern}}</td>
+        <td>{{user.graduate_school}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <hr><br>
+  <h2>메일 수신 정보 수정</h2>
+  <p>{{ message }}</p>
+  <form method="POST" action="{% url 'edit_info' %}">
+      {% csrf_token %}
+      이메일:
+      <br>
+      <input name="email" type="email">
+      <br>
+      학과:
+      <br>
+      <select name="dept" class="form-select" aria-label="Default select example">
+          <option selected>선택</option>
+          <option value="Software">소프트웨어학과</option>
+          <option value="DataScience">데이터사이언스학과</option>
+          <option value="Computer">컴퓨터공학과</option>
+      </select>
+      <!-- <input name="dept" type="text"> -->
+      <br>
+      취업:
+      <br>
+      <select name="employ" class="form-select" aria-label="Default select example">
+          <option selected>선택</option>
+          <option value="T">받음</option>
+          <option value="F">받지않음</option>
+      </select>
+      <br>
+      창업:
+      <br>
+      <select name="founded" class="form-select" aria-label="Default select example">
+          <option selected>선택</option>
+          <option value="T">받음</option>
+          <option value="F">받지않음</option>
+      </select>
+      <br>
+      인턴:
+      <br>
+      <select name="intern" class="form-select" aria-label="Default select example">
+          <option selected>선택</option>
+          <option value="T">받음</option>
+          <option value="F">받지않음</option>
+      </select>
+      <br>
+      대학원:
+      <br>
+      <select name="graduate_school" class="form-select" aria-label="Default select example">
+          <option selected>선택</option>
+          <option value="T">받음</option>
+          <option value="F">받지않음</option>
+      </select>
+      <br>
+      <br>
+      <input class="btn btn-primary" type="submit" value="완료">
+  </form>
+  
+
+{% endblock %}

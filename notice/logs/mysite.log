@@ -1248,3 +1248,736 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-28 21:45:42,377 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2021-11-28 21:48:08,245 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
 2021-11-28 21:48:09,272 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 19:04:40,923 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 19:06:34,339 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-29 19:06:35,822 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 19:07:29,576 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 19:07:34,722 [WARNING] django.request: Not Found: /favicon.ico
+2021-11-29 19:08:15,507 [INFO] accounts.views: username = admin
+2021-11-29 19:08:15,731 [INFO] accounts.views: user = admin
+2021-11-29 19:09:35,121 [INFO] accounts.views: username = admin
+2021-11-29 19:09:35,358 [INFO] accounts.views: user = admin
+2021-11-29 19:14:44,408 [INFO] accounts.views: username = 1234
+2021-11-29 19:14:44,638 [INFO] accounts.views: user = 1234
+2021-11-29 19:15:39,755 [INFO] accounts.views: username = admin
+2021-11-29 19:15:39,981 [INFO] accounts.views: user = admin
+2021-11-29 19:16:38,575 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:16:38,583 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:16:42,862 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:16:42,870 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:18:52,437 [INFO] accounts.views: username = 1234
+2021-11-29 19:18:52,676 [INFO] accounts.views: user = 1234
+2021-11-29 19:19:08,548 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:19:08,549 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:19:21,199 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:19:21,202 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:19:24,918 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:19:24,927 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:19:33,586 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:19:33,589 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:20:10,859 [WARNING] django.request: Not Found: /static/update.png
+2021-11-29 19:20:10,861 [WARNING] django.request: Not Found: /static/delete.png
+2021-11-29 19:42:32,022 [INFO] accounts.views: username = admin
+2021-11-29 19:42:32,220 [INFO] accounts.views: user = admin
+2021-11-29 20:01:44,502 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:01:48,448 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:01:49,985 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:01:51,094 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:02:44,870 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:02:45,933 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:06:10,341 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view faq.views.email didn't return an HttpResponse object. It returned None instead.
+2021-11-29 20:06:53,532 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:06:55,043 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:07:11,003 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:07:12,513 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:08:05,127 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:08:06,774 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:08:10,425 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:08:11,800 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:08:42,071 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:08:49,206 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:08:59,552 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:09:01,056 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:09:07,053 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 108, in email
+    return self.success(user)
+AttributeError: 'WSGIRequest' object has no attribute 'success'
+2021-11-29 20:10:44,641 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:10:46,303 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:10:56,864 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:10:57,806 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:01,887 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:03,045 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:05,932 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:07,155 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:08,831 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:09,706 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:11,470 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:12,664 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:16,825 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:18,181 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:20,168 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:21,213 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:28,409 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:29,350 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:37,669 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:38,681 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:40,512 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:41,456 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:44,448 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:45,356 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:47,118 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:48,176 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:11:50,041 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:11:51,385 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:12:55,476 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:12:56,403 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:12:58,420 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:12:59,562 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:13:15,363 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:13:16,774 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:13:20,421 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:13:21,338 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:13:35,254 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:13:36,131 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:13:52,944 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:13:54,322 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:13:58,097 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 108, in email
+    return render(request, 'management.html', {'users': user, 'data': user.email})
+AttributeError: 'QuerySet' object has no attribute 'email'
+2021-11-29 20:16:50,832 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:16:51,961 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:16:56,189 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:16:57,546 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:17:00,609 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:17:01,640 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:17:06,906 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 107, in email
+    user_email=user.email
+AttributeError: 'QuerySet' object has no attribute 'email'
+2021-11-29 20:17:41,925 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:17:43,205 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:17:47,472 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 107, in email
+    user_email=user.email
+AttributeError: 'QuerySet' object has no attribute 'email'
+2021-11-29 20:18:47,937 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 107, in email
+    user_email=user.email
+AttributeError: 'QuerySet' object has no attribute 'email'
+2021-11-29 20:20:20,794 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:22,089 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:20:26,905 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:28,072 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:20:34,830 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:35,638 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:20:42,415 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:43,338 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:20:49,148 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:50,303 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:20:53,850 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:54,937 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:20:57,384 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:20:58,573 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:21:01,109 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:21:02,284 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:21:04,888 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:21:05,770 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:21:23,312 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:21:24,532 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:21:43,294 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:21:44,800 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:21:57,976 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:21:59,039 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:22:19,243 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:22:20,457 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:22:29,949 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:22:32,073 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:22:44,857 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-29 20:22:45,873 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:22:47,617 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-29 20:22:48,722 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:22:52,786 [INFO] faq.views: user.email = 1234@gmail.com
+2021-11-29 20:22:54,121 [INFO] faq.views: user.email = 1234@gmail.com
+2021-11-29 20:23:24,661 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:23:26,006 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:23:30,324 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:23:31,515 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:23:33,264 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:23:34,283 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:23:37,157 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:23:38,081 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:23:41,061 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:23:42,423 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:23:44,320 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:23:45,825 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:23:46,344 [INFO] faq.views: users = <QuerySet [<User: 1234>]>
+2021-11-29 20:23:46,349 [INFO] faq.views: user.email = 1234@gmail.com
+2021-11-29 20:24:39,397 [INFO] accounts.views: username = admin
+2021-11-29 20:24:39,584 [INFO] accounts.views: user = admin
+2021-11-29 20:24:45,672 [INFO] faq.views: users = <QuerySet [<User: 1234>, <User: 12345>]>
+2021-11-29 20:24:45,675 [INFO] faq.views: user.email = 1234@gmail.com
+2021-11-29 20:24:45,676 [INFO] faq.views: user.email = 12345@gmail.com
+2021-11-29 20:25:16,729 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:25:17,862 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:25:19,951 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:25:21,035 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:25:22,918 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:25:23,859 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:25:29,056 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:25:30,273 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:25:32,036 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:25:33,331 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:25:56,380 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:25:57,356 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:25:59,229 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:00,172 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:04,048 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:05,243 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:07,784 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:26:07,785 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 111, in email
+    logger.info('user.email = {}'.format(users.email))
+AttributeError: 'QuerySet' object has no attribute 'email'
+2021-11-29 20:26:12,959 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:13,846 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:15,763 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:16,916 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:23,020 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:24,018 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:30,120 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:30,979 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:37,008 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:37,928 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:26:47,123 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:26:48,014 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:27:13,339 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:27:14,732 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:27:17,386 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:27:18,302 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:27:42,965 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:27:43,951 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:27:48,672 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:27:49,664 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:27:57,063 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:27:58,261 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:02,031 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:03,188 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:07,157 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:08,020 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:18,977 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:20,075 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:31,611 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:32,583 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:35,593 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:36,554 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:41,554 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:42,703 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:50,046 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:51,103 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:28:54,104 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:28:55,074 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:29:00,176 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:29:01,273 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:29:07,317 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:29:08,291 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:29:10,042 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:29:11,186 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:29:13,326 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:29:14,754 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:29:16,602 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:29:16,602 [INFO] faq.views: user_dept = ['DataScience', 'Computer']
+2021-11-29 20:29:16,603 [INFO] faq.views: user_notice = [['ok', 'no', 'no', 'ok'], ['F', 'F', 'T', 'T']]
+2021-11-29 20:31:40,582 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:31:41,817 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:31:43,963 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:31:43,963 [INFO] faq.views: user_dept = ['DataScience', 'Computer']
+2021-11-29 20:31:43,963 [INFO] faq.views: user_notice = [['ok', 'no', 'no', 'ok'], ['F', 'F', 'T', 'T']]
+2021-11-29 20:31:47,792 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:31:47,792 [INFO] faq.views: user_dept = ['DataScience', 'Computer']
+2021-11-29 20:31:47,792 [INFO] faq.views: user_notice = [['ok', 'no', 'no', 'ok'], ['F', 'F', 'T', 'T']]
+2021-11-29 20:31:55,509 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:31:55,509 [INFO] faq.views: user_dept = ['DataScience', 'Computer']
+2021-11-29 20:31:55,509 [INFO] faq.views: user_notice = [['ok', 'no', 'no', 'ok'], ['F', 'F', 'T', 'T']]
+2021-11-29 20:31:58,477 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:31:58,477 [INFO] faq.views: user_dept = ['DataScience', 'Computer']
+2021-11-29 20:31:58,477 [INFO] faq.views: user_notice = [['ok', 'no', 'no', 'ok'], ['F', 'F', 'T', 'T']]
+2021-11-29 20:32:01,976 [INFO] faq.views: user_email = ['1234@gmail.com', '12345@gmail.com']
+2021-11-29 20:32:01,976 [INFO] faq.views: user_dept = ['DataScience', 'Computer']
+2021-11-29 20:32:01,976 [INFO] faq.views: user_notice = [['ok', 'no', 'no', 'ok'], ['F', 'F', 'T', 'T']]
+2021-11-29 20:33:04,145 [INFO] accounts.views: username = 1234
+2021-11-29 20:33:04,327 [INFO] accounts.views: user = 1234
+2021-11-29 20:36:38,715 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:36:39,857 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:36:43,833 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:36:44,877 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:36:46,819 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:36:47,762 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:36:49,587 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:36:50,578 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:38:45,758 [INFO] accounts.views: username = 12345
+2021-11-29 20:38:45,947 [INFO] accounts.views: user = 12345
+2021-11-29 20:43:29,981 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:43:30,905 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:43:32,112 [INFO] faq.views: edit in
+2021-11-29 20:43:32,135 [ERROR] django.request: Internal Server Error: /faq/edit
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 27, in edit
+    return render(request, 'edit.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit_info' not found. 'edit_info' is not a valid view function or pattern name.
+2021-11-29 20:43:42,629 [INFO] faq.views: edit in
+2021-11-29 20:43:42,642 [ERROR] django.request: Internal Server Error: /faq/edit
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 27, in edit
+    return render(request, 'edit.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit_info' not found. 'edit_info' is not a valid view function or pattern name.
+2021-11-29 20:44:07,527 [INFO] faq.views: edit in
+2021-11-29 20:45:20,922 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:45:21,981 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:45:33,067 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:45:34,165 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:45:39,860 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:45:41,077 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:45:50,161 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:45:51,105 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:45:55,732 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:45:56,796 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:46:54,367 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:46:55,224 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:46:59,188 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:47:00,082 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:47:48,254 [INFO] faq.views: edit in
+2021-11-29 20:50:04,804 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:50:05,726 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:50:22,000 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:50:22,871 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:50:33,987 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:50:35,184 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:50:36,689 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:50:37,565 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:50:39,024 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:50:40,273 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:50:58,809 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:51:00,046 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:51:01,552 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:51:02,671 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:51:05,426 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:51:06,595 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:51:08,608 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:51:09,588 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:53:44,147 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:53:45,464 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:53:54,030 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:53:55,546 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:53:56,983 [WARNING] django.request: Not Found: /faq/edit_info
+2021-11-29 20:54:03,229 [INFO] faq.views: edit in
+2021-11-29 20:54:03,247 [ERROR] django.request: Internal Server Error: /faq/edit
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 27, in edit
+    return render(request, 'edit.html')
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit_link' not found. 'edit_link' is not a valid view function or pattern name.
+2021-11-29 20:54:46,180 [INFO] faq.views: edit in
+2021-11-29 20:55:42,955 [INFO] faq.views: edit in
+2021-11-29 20:56:00,130 [INFO] faq.views: edit in
+2021-11-29 20:56:11,568 [INFO] faq.views: edit in
+2021-11-29 20:56:58,636 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:57:00,048 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:02,994 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:57:03,933 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:05,697 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:57:06,564 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:21,993 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\urls.py changed, reloading.
+2021-11-29 20:57:23,216 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:35,597 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:57:36,671 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:38,230 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:57:39,109 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:49,202 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:57:50,125 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:57:52,029 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:57:53,140 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:09,133 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:10,113 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:15,319 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:16,401 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:30,038 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:31,080 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:33,983 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:34,830 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:38,638 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:39,837 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:46,991 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:47,971 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:51,909 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:53,005 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:58:54,762 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:58:55,641 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:00,161 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:01,025 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:04,849 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:05,648 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:11,708 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:12,791 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:15,666 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:16,729 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:18,828 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:20,316 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:27,701 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:28,935 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:30,833 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:32,114 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:34,132 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 20:59:36,131 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 20:59:52,558 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\utils\datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'password1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 12, in signup
+    if request.POST['password1'] == request.POST['password2']:
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'password1'
+2021-11-29 21:00:40,423 [INFO] faq.views: edit in
+2021-11-29 21:00:52,146 [WARNING] django.security.csrf: Forbidden (CSRF token missing or incorrect.): /faq/edit_info
+2021-11-29 21:01:34,793 [WARNING] django.security.csrf: Forbidden (CSRF token missing or incorrect.): /faq/edit_info
+2021-11-29 21:01:41,401 [INFO] faq.views: edit in
+2021-11-29 21:01:53,021 [INFO] faq.views: username=12345
+2021-11-29 21:02:14,086 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:02:17,170 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:02:19,025 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:02:19,866 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:02:37,281 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:02:38,508 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:02:39,978 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:02:41,162 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:02:59,925 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:03:01,207 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:03:04,754 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:03:05,771 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:03:13,914 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:03:14,799 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:05:06,549 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:05:07,593 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:05:21,407 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:05:22,464 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:05:48,409 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:05:49,751 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:05:52,720 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:05:53,537 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:01,625 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:02,740 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:07,438 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:08,233 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:11,755 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:12,651 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:15,565 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:16,540 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:19,987 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:20,992 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:22,843 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:23,819 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:35,207 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:36,557 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:40,859 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:42,008 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:06:44,783 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:06:45,814 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:07:05,785 [INFO] faq.views: username=12345
+2021-11-29 21:07:05,787 [ERROR] django.request: Internal Server Error: /faq/edit_info
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 34, in edit_info
+    user.email=request.POST['email']
+AttributeError: 'NoneType' object has no attribute 'email'
+2021-11-29 21:08:08,864 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:08:10,125 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:08:15,080 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:08:16,370 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:08:18,172 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:08:19,211 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:08:24,265 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:08:25,341 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:08:27,168 [INFO] faq.views: username=12345
+2021-11-29 21:08:27,170 [INFO] faq.views: user=None
+2021-11-29 21:08:27,177 [ERROR] django.request: Internal Server Error: /faq/edit_info
+Traceback (most recent call last):
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\1114n\AppData\Roaming\Python\Python39\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 35, in edit_info
+    user.email=request.POST['email']
+AttributeError: 'NoneType' object has no attribute 'email'
+2021-11-29 21:09:01,434 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:02,772 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:04,743 [INFO] faq.views: username=12345
+2021-11-29 21:09:04,748 [INFO] faq.views: user=12345
+2021-11-29 21:09:04,749 [INFO] faq.views: email=222@gmail.com
+2021-11-29 21:09:20,355 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:21,545 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:29,855 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:30,959 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:35,987 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:37,015 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:38,890 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:40,077 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:42,630 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:43,892 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:46,684 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:47,734 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:50,278 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:51,231 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:09:56,328 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:09:57,324 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:10:01,279 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:10:02,481 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:10:08,635 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:10:09,767 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:10:14,765 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:10:15,768 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:10:17,484 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:10:18,517 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:10:40,307 [INFO] faq.views: username=12345
+2021-11-29 21:10:40,309 [INFO] faq.views: user=12345
+2021-11-29 21:10:42,717 [INFO] faq.views: edit in
+2021-11-29 21:11:10,319 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:11:11,496 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:11:13,264 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:11:14,119 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:11:16,972 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:11:18,043 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:11:24,786 [INFO] accounts.views: username = admin
+2021-11-29 21:11:24,981 [INFO] accounts.views: user = admin
+2021-11-29 21:12:08,253 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:12:09,836 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:12:12,681 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:12:13,498 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:12:19,142 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:12:20,099 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:12:22,015 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:12:23,215 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:12:55,217 [INFO] accounts.views: username = 1234
+2021-11-29 21:12:55,424 [INFO] accounts.views: user = 1234
+2021-11-29 21:12:59,785 [INFO] faq.views: edit in
+2021-11-29 21:13:12,643 [INFO] faq.views: username=1234
+2021-11-29 21:13:12,646 [INFO] faq.views: user=1234
+2021-11-29 21:13:20,139 [INFO] faq.views: edit in
+2021-11-29 21:14:06,919 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:14:07,930 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:14:09,825 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:14:11,129 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:14:20,376 [INFO] faq.views: username=1234
+2021-11-29 21:14:20,378 [INFO] faq.views: user=1234
+2021-11-29 21:14:28,376 [INFO] faq.views: edit in
+2021-11-29 21:14:31,733 [INFO] faq.views: edit in
+2021-11-29 21:15:23,094 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:15:24,279 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:15:35,802 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:15:36,930 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:15:42,008 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:15:43,276 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:15:54,038 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:15:55,453 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:15:57,453 [INFO] faq.views: edit in
+2021-11-29 21:16:13,165 [INFO] faq.views: username=1234
+2021-11-29 21:16:13,171 [INFO] faq.views: user=1234
+2021-11-29 21:16:13,191 [INFO] faq.views: edit in
+2021-11-29 21:16:26,945 [INFO] accounts.views: username = admin
+2021-11-29 21:16:27,141 [INFO] accounts.views: user = admin
+2021-11-29 21:16:42,037 [INFO] accounts.views: username = 1234
+2021-11-29 21:16:42,237 [INFO] accounts.views: user = 1234
+2021-11-29 21:16:45,534 [INFO] faq.views: edit in
+2021-11-29 21:17:31,831 [INFO] faq.views: username=1234
+2021-11-29 21:17:31,834 [INFO] faq.views: user=1234
+2021-11-29 21:17:31,857 [INFO] faq.views: edit in
+2021-11-29 21:17:50,497 [INFO] faq.views: username=1234
+2021-11-29 21:17:50,499 [INFO] faq.views: user=1234
+2021-11-29 21:17:50,518 [INFO] faq.views: edit in
+2021-11-29 21:18:10,641 [INFO] accounts.views: username = admin
+2021-11-29 21:18:10,850 [INFO] accounts.views: user = admin
+2021-11-29 21:18:19,378 [INFO] faq.views: user_email = ['1234@gmail.com', '123@gmail.com']
+2021-11-29 21:18:19,379 [INFO] faq.views: user_dept = ['Software', 'Computer']
+2021-11-29 21:18:19,379 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'T'], ['T', 'T', 'T', 'T']]
+2021-11-29 21:18:35,954 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:18:36,779 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:19:07,065 [INFO] accounts.views: username = 1234
+2021-11-29 21:19:07,251 [INFO] accounts.views: user = 1234
+2021-11-29 21:20:12,234 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:20:13,334 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:20:34,562 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:20:35,579 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:22:02,508 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-11-29 21:22:03,656 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:24:02,395 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-29 21:24:03,460 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:24:09,120 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-29 21:24:09,935 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-11-29 21:24:21,730 [INFO] accounts.views: username = admin
+2021-11-29 21:24:21,931 [INFO] accounts.views: user = admin
+2021-11-29 21:25:24,555 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-11-29 21:25:25,525 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

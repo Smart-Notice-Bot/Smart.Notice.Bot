@@ -19,7 +19,7 @@
 
 
 ## :star: 특징
-1. (진행 중)홈페이지에 회원가입을 한 후 본인 학과, 이메일, 관심사를 선택한다.
+1. (완료)홈페이지에 회원가입을 한 후 본인 학과, 이메일, 관심사를 선택한다.
 2. (계획)공지사항 중에 사용자가 필요로 하는 것(취업, 창업, 대학원, 인턴 등)과 같은 글들이 갱신될 때마다 이메일로 보내준다.
 3. (계획)자주하는 질문(FAQ)은 홈페이지에 제공한다.
 
@@ -33,6 +33,10 @@ Python 3.7 & Jupyter notebook
 ## :white_check_mark: 실행방법
 ```
 $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
+$ cd notice
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py inituser --username=admin --password=1234 --action=create_admin
 $ python manage.py runserver
 ```
 

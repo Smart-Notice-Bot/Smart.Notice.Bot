@@ -11,4 +11,6 @@ urlpatterns = [
     path('search', views.search, name='search'),
     path('management', views.management, name='management'),
     path('edit', views.edit, name='edit'),
+    path('eamil', views.email, name='email'),
+    path('edit_info', views.edit_info, name='edit_info')
 ]

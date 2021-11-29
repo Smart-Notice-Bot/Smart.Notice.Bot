@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<button type="button" class="btn btn-primary" >이메일 보내기</button>
+<a class="btn btn-primary" href="{% url 'email' %}">이메일 보내기</a>
+<p>{{ data }}</p>
+<!--<button type="button" class="btn btn-primary" onclick="location.href='{% url 'email' %}'">이메일 보내기</button>-->
 
 <table class="table table-striped" style="margin-top: 20px">
     <thead>

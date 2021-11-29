@@ -25,6 +25,18 @@ def management(request):
 def edit(request):
     return render(request, 'edit.html')
 
+def edit_info(request):
+    if request.method == 'POST':
+        user = User.objects.get(username=request.user.username)
+        user.email=request.POST['email']
+        user.dept=request.POST['dept']
+        user.employ=request.POST['employ']
+        user.founded=request.POST['founded']
+        user.intern=request.POST['intern']
+        user.graduate_school=request.POST['graduate_school']
+        user.save()
+    return redirect('edit')
+
 def detail(request, blog_id):
     blog_detail = get_object_or_404(Blog, pk=blog_id)
     comments = Comment.objects.filter(blog = blog_id)
@@ -101,3 +113,18 @@ def search(request):
     
     else:
         return render(request, 'search.html')
+
+def email(request):
+    users = User.objects.filter(admin_type=AdminType.USER)
+    user_email=[]
+    user_notice=[]
+    user_dept=[]
+    for user in users:
+        user_email.append(user.email)
+        user_dept.append(user.dept)
+        user_notice.append([user.employ, user.intern, user.founded, user.graduate_school])
+    logger.info('user_email = {}'.format(user_email))
+    logger.info('user_dept = {}'.format(user_dept))
+    #취업, 인턴, 창업, 대학원 순 
+    logger.info('user_notice = {}'.format(user_notice))
+    return render(request, 'management.html', {'users': users, 'data': 'Success'})
