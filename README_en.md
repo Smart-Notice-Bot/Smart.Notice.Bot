@@ -33,7 +33,6 @@ Python 3.7 & Jupyter notebook
 ## :white_check_mark: Installation
 ```
 $ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
-$ git clone https://github.com/Smart-Notice-Bot/Smart.Notice.Bot.git
 $ cd notice
 $ python manage.py makemigrations
 $ python manage.py migrate
