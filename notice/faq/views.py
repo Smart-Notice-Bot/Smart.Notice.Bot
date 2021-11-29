@@ -18,6 +18,24 @@ def home(request):
 
     return render(request,'home.html', {'blogs':blogs,'posts':posts} )
 
+def majorpost(request):
+    blogs = Blog.objects.order_by('-id')
+    blog_list = Blog.objects.all().order_by('-id')
+    paginator = Paginator(blog_list,3)
+    page = request.GET.get('page')
+    posts = paginator.get_page(page)
+
+    return render(request,'majorpost.html', {'blogs':blogs,'posts':posts} )
+
+def newpost(request):
+    blogs = Blog.objects.order_by('-id')
+    blog_list = Blog.objects.all().order_by('-id')
+    paginator = Paginator(blog_list,3)
+    page = request.GET.get('page')
+    posts = paginator.get_page(page)
+
+    return render(request,'newpost.html', {'blogs':blogs,'posts':posts} )
+
 def management(request):
     user = User.objects.filter(admin_type=AdminType.USER)
     return render(request, 'management.html', {'users': user})

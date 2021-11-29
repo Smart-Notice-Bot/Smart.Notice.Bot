@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>주요 질문들</h1>
+  <p>자주 올라오는 질문에 대해 정리되어 있습니다.</p>
+      {% for blog in posts %}
+      <div class="container"> 
+      <div class="card">
+        <div class="card-body">
+        <h2>{{ blog.title }}</h2>
+        <p>{{ blog.pub_date | date:"Y-m-d" }}</p>
+        <p>{{ blog.summary }}<a href="{% url 'detail' blog.id %}"> ...자세히 보기</a></p> 
+        </div>
+      </div>
+      </div>
+      <br>
+      {% endfor %}
+
+      {%if posts.has_previous%}
+      <a href="?page=1">First</a>
+      <a href="?page={{posts.previous_page_number}}">Previous</a>
+      {%endif%}
+
+      <span>{{posts.number}}</span>
+      <span>of</span>
+      <span>{{posts.paginator.num_pages}}</span>
+
+      {%if posts.has_next%}
+      <a href="?page={{posts.next_page_number}}">Next</a>
+      <a href="?page={{posts.paginator.num_pages}}">Last</a>
+      {%endif%}
+
+{% endblock %}
