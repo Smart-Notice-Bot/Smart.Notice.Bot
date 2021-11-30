@@ -21,19 +21,36 @@
       </div>
     <div class="container">
       <!--생략-->
-      
-       댓글 : 
-      {% for comment in comments %}
-      {{comment.body}} - {{comment.date}} - {{user.username}}
       <br>
+       <style>
+        #border{
+        text-align:'center';
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+       #solid{
+         font-weight: bold;
+       }
+       #ba{
+        text-align:'center';
+        border: 1px solid #0054DF;
+        border-radius: 80px / 40px;
+        box-sizing: border-box;
+				width: 90px;
+        font-weight: bold;
+        background: #50bcdf;
+       }
+       </style>
+      <p id ='ba'> -댓글 목록-</p>
+      {% for comment in comments %}
+      <p id ='border'><span><a id='solid'>{{user.username}}</a>님의 댓글</span> : {{comment.body}} - {{comment.date}}</p>
+
       {% endfor %}
-    
-       <br><br>
-       댓글 달기 : 
-       <form method="POST">
+      <form method="POST">
         {% csrf_token %}
-        <input name="body" type="text" value="">
-        <input class="btn btn-primary" type="submit" value="저장">
+        댓글 작성 : <input name="body" text-align=left type="text" value="" style="width:1000px;height:38px;background:#EAEAEA;
+        padding:7px; border:#0054DF; box-sizing: border-box;"></input>
+        <button type="submit" class="btn btn-secondary">작성</button>
       </form>
       
       </div>      
