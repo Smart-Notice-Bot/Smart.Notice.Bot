@@ -1,6 +1,6 @@
 ---
-title: News
-permalink: /news/
+title: contactus
+permalink: /contactus/
 ---
 
 # News
