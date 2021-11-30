@@ -6,6 +6,13 @@ from .models import Comment
 from .forms import BlogUpdate
 from accounts.models import User, AdminType
 
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from datetime import datetime
+import pyperclip
+import time
+
 import logging
 logger=logging.getLogger(__name__)
 
@@ -145,4 +152,109 @@ def email(request):
     logger.info('user_dept = {}'.format(user_dept))
     #취업, 인턴, 창업, 대학원 순 
     logger.info('user_notice = {}'.format(user_notice))
+
+    ############################################
+    ############################################
+    ############################################
+
+    ############################# 크롤링 변수 ########################################
+    # 일반공지 , 학사공지 , 국제교류 , 취업 , 장학 , 교내모집 , 경시대회/공모전
+    SEJONG_HOMEPAGE_URLS=['http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=333','http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=335',
+    'http://board.sejong.ac.kr/pages/notices.html','http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=337',
+    'http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=338','http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=339',
+    'http://board.sejong.ac.kr/boardlist.do?bbsConfigFK=796']
+    #TODAY_DATE = str(datetime.today().year)+'.' +str(datetime.today().month) + '.' + str(datetime.today().day)
+    TODAY_DATE = input('날짜를 입력해주세요 ex) 2021.01.01   ')
+
+    titles = [ [] for row in range(len(SEJONG_HOMEPAGE_URLS))]
+    urls = [ [] for row in range(len(SEJONG_HOMEPAGE_URLS))]
+
+    ###########################chrome 설정 #####################################
+    options = webdriver.ChromeOptions()
+    options.add_argument('start-maximized')
+
+    driver = webdriver.Chrome('chromedriver.exe', options=options)
+    driver.implicitly_wait(10)
+
+    ############################# crawling 실행 ##########################################
+    for i in range(0,len(SEJONG_HOMEPAGE_URLS)):
+        driver.get(SEJONG_HOMEPAGE_URLS[i])
+        time.sleep(1)
+        if i==2:
+            driver.switch_to.frame(driver.find_element_by_xpath("//*[@id=\"iframe_main\"]"))
+        tmp = driver.find_element_by_xpath('/html/body/div/table/tbody')
+        tmp = tmp.find_elements_by_tag_name('tr')
+        for j in range(0,len(tmp)):
+            tbody = driver.find_element_by_xpath('/html/body/div/table/tbody') # 1페이지 글을 모두 가져옴
+            tr_Array = tbody.find_elements_by_tag_name('tr') # 1페이지 글을 한 줄씩 쪼개서 tr_Array 담음
+            tr = tr_Array[j]  # j번째 글을 tr 이라고 함
+            if tr.find_element_by_xpath('/html/body/div/table/tbody/tr/td').text == '등록된 게시물 정보가 없습니다.':
+                break
+            if tr.find_element_by_class_name('date').text == TODAY_DATE:  # j번째 글의 날짜 == 입력 날짜
+                tr.find_element_by_class_name('subject').click()  # j번째 글 클릭
+                time.sleep(1)
+                titles[i].append(driver.find_element_by_xpath('/html/body/div/table[1]/thead/tr[1]/td').text) # 제목 추가
+                urls[i].append(driver.current_url) # url 추가
+                driver.back()  # 뒤로가기
+                if i==2:
+                    driver.switch_to.frame(driver.find_element_by_xpath("//*[@id=\"iframe_main\"]"))
+
+    #####################################################################################################################
+    #####################################################################################################################
+    #####################################################################################################################
+
+    #클립보드에 input을 복사한 뒤 해당 내용을 actionChain을 이용해 로그인 폼에 붙여넣기
+    def copy_input(xpath, input):
+        pyperclip.copy(input)
+        driver.find_element_by_xpath(xpath).click()
+        ActionChains(driver).key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
+        time.sleep(1)
+
+    ######################################### 변수 #############################################
+    ID = 'smart_notice_bot'
+    PW = 'Smartnoticebot1!'
+    #TITLE = str(datetime.today().year)+'년 ' +str(datetime.today().month) + '월 ' + str(datetime.today().day) + '일 공지 사항 입니다.'
+    TITLE = TODAY_DATE + ' 공지 사항 입니다.'
+    ####################################### email 보내기 실행##############################################
+
+    driver.get('https://nid.naver.com/nidlogin.login')
+    time.sleep(1)
+    copy_input('//*[@id="id"]', ID)
+    time.sleep(1)
+    copy_input('//*[@id="pw"]', PW)
+    time.sleep(1)
+    driver.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[1]/form/ul/li/div/div[7]/button').click()
+
+    driver.get('https://mail.naver.com/#%7B%22fClass%22%3A%22write%22%2C%22oParameter%22%3A%7B%22orderType%22%3A%22new%22%2C%22sMailList%22%3A%22%22%7D%7D')
+    time.sleep(1)
+
+    for mail in user_email:
+        driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div/div/div[2]/div[2]/div[1]/fieldset/div/table/tbody/tr[1]/td/div/div[2]/ul/li/div/div[1]/textarea').send_keys(mail)    
+        time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div/div/div[2]/div[2]/div[1]/fieldset/div/table/tbody/tr[1]/td/div/div[2]/ul/li/div/div[1]/textarea').send_keys(Keys.SPACE)
+        time.sleep(1)
+
+    driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div/div/div[2]/div[2]/div[1]/fieldset/div/table/tbody/tr[5]/td/div[1]/div[3]/input').send_keys(TITLE)
+    time.sleep(1)
+
+    driver.switch_to.frame(driver.find_element_by_xpath("//*[@id=\"se2_iframe\"]"))
+
+    for i in range(0,len(titles)):
+        for j in range(0,len(titles[i])):
+            driver.find_element_by_xpath('/html/body').send_keys(titles[i][j])
+            driver.find_element_by_xpath('/html/body').send_keys(Keys.ENTER)
+            driver.find_element_by_xpath('/html/body').send_keys(urls[i][j])
+            driver.find_element_by_xpath('/html/body').send_keys(Keys.ENTER)
+            
+    time.sleep(1)
+    driver.switch_to.default_content()
+
+    for i in titles:
+        if i:
+            driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div/div/div[1]/div[9]/div[1]/button[1]').click()
+            break
+
+    time.sleep(3)
+    driver.quit()
+    
     return render(request, 'management.html', {'users': users, 'data': 'Success'})

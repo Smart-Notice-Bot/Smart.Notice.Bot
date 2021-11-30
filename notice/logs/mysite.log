@@ -2050,3 +2050,93 @@ django.db.utils.OperationalError: no such table: faq_blog
 2021-11-30 00:42:24,672 [INFO] accounts.views: user = admin
 2021-11-30 00:43:02,397 [INFO] django.utils.autoreload: C:\Users\Public\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
 2021-11-30 00:43:04,803 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 00:40:38,886 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 00:40:50,233 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-01 00:42:13,822 [INFO] accounts.views: username = admin
+2021-12-01 00:42:13,944 [INFO] accounts.views: user = admin
+2021-12-01 00:42:25,361 [INFO] faq.views: user_email = []
+2021-12-01 00:42:25,361 [INFO] faq.views: user_dept = []
+2021-12-01 00:42:25,362 [INFO] faq.views: user_notice = []
+2021-12-01 00:46:05,225 [INFO] accounts.views: username = admin
+2021-12-01 00:46:05,342 [INFO] accounts.views: user = admin
+2021-12-01 00:46:09,295 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
+2021-12-01 00:46:09,295 [INFO] faq.views: user_dept = ['Software']
+2021-12-01 00:46:09,295 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
+2021-12-01 00:48:07,201 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 00:54:46,459 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-01 00:54:47,070 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 00:54:53,219 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
+2021-12-01 00:54:53,219 [INFO] faq.views: user_dept = ['Software']
+2021-12-01 00:54:53,219 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
+2021-12-01 00:55:09,306 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 71, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 175, in email
+    driver = webdriver.Chrome('chromedriver.exe', options=options)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 90, in __init__
+    self.service.start()
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2021-12-01 00:55:30,862 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-01 00:55:31,486 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 00:57:09,291 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 00:57:28,880 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
+2021-12-01 00:57:28,880 [INFO] faq.views: user_dept = ['Software']
+2021-12-01 00:57:28,881 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
+2021-12-01 00:57:36,675 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 71, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 175, in email
+    driver = webdriver.Chrome('chromedriver.exe', options=options)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 90, in __init__
+    self.service.start()
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2021-12-01 01:01:00,713 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 01:01:07,992 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
+2021-12-01 01:01:07,993 [INFO] faq.views: user_dept = ['Software']
+2021-12-01 01:01:07,993 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
+2021-12-01 01:02:06,695 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
+2021-12-01 01:02:06,696 [INFO] faq.views: user_dept = ['Software']
+2021-12-01 01:02:06,696 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
+2021-12-01 01:04:29,152 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-01 01:04:29,790 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 01:04:38,943 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
+2021-12-01 01:04:38,943 [INFO] faq.views: user_dept = ['Software']
+2021-12-01 01:04:38,943 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
