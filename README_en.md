@@ -20,8 +20,9 @@
 
 ## :star: Features
 1. (Complete)After signing up for membership on the website, select your department, e-mail, and interests.
-2. (planned)Whenever articles such as what users need (employment, start-up, graduate school, internship, etc.) are updated, they are sent by e-mail.
-3. (planned)Frequent questions (FAQs) are provided on the website.
+2. (Complete)Whenever articles such as what users need (employment, start-up, graduate school, internship, etc.) are updated, they are sent by e-mail.
+3. (Complete)Frequent questions (FAQs) are provided on the website.
+4. (Complete)It provides a bulletin board service that allows you to answer questions if someone posts them.
 
 <br>
 
