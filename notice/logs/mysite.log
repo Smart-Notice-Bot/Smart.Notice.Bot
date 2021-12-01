@@ -2140,3 +2140,8 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' execu
 2021-12-01 01:04:38,943 [INFO] faq.views: user_email = ['wlsdyd4@naver.com']
 2021-12-01 01:04:38,943 [INFO] faq.views: user_dept = ['Software']
 2021-12-01 01:04:38,943 [INFO] faq.views: user_notice = [['T', 'F', 'T', 'F']]
+2021-12-01 16:41:16,351 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 16:44:24,101 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-01 16:44:39,182 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-01 16:44:45,589 [INFO] accounts.views: username = admin
+2021-12-01 16:44:45,827 [INFO] accounts.views: user = admin
