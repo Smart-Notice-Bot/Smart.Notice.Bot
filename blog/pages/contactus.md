@@ -3,24 +3,22 @@ title: contactus
 permalink: /contactus/
 ---
 
-# News
+# Contact Us
 
-<p>Subscribe with <a href="{{ site.baseurl }}/feed.xml">RSS</a> to keep up with the latest news.
-For site changes, see the <a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}/blob/master/CHANGELOG.md">changelog</a> kept with the code base.</p>
+<p>If you want to give us feedbacks, ask questions related to the project, or anything else, please refer to the mail list below and contact us.</p>
 
-<br>
+<h2> Mail List </h2>
 
-{% for post in site.posts limit:10 %}
-   <div class="post-preview">
-   <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-   <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span><br>
-   {% if post.badges %}{% for badge in post.badges %}<span class="badge badge-{{ badge.type }}">{{ badge.tag }}</span>{% endfor %}{% endif %}
-   {{ post.content | split:'<!--more-->' | first }}
-   {% if post.content contains '<!--more-->' %}
-      <a href="{{ site.baseurl }}{{ post.url }}">read more</a>
-   {% endif %}
-   </div>
-   <hr>
-{% endfor %}
+- 1
+- 2
+- 3
+- example@email.com
 
-Want to see more? See the <a href="{{ site.baseurl }}/archive/">News Archive</a>.
+<h4>Please refer to the example below when sending an e-mail</h4>
+    <example> 
+      name 
+         Hong Gildong
+      email address
+         example@email.com
+      message
+         Any advice or question is welcomed.
