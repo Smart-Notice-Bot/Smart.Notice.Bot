@@ -2214,3 +2214,246 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' execu
 2021-12-02 21:23:29,052 [INFO] accounts.views: user = None
 2021-12-02 21:23:34,430 [INFO] accounts.views: username = admin
 2021-12-02 21:23:34,593 [INFO] accounts.views: user = admin
+2021-12-03 02:57:22,076 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 02:59:35,551 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\notice\settings.py changed, reloading.
+2021-12-03 02:59:36,091 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 02:59:37,412 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 02:59:37,929 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:00:19,916 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:00:26,669 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:00:35,205 [INFO] accounts.views: username = admin
+2021-12-03 03:00:35,337 [INFO] accounts.views: user = admin
+2021-12-03 03:02:31,081 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 13, in signup
+    user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'], general=request.POST['general'], school=request.POST['school'], international=request.POST['international'], employ=request.POST['employ'], scholarship=request.POST['scholarship'])
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: user.username
+2021-12-03 03:02:38,189 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 13, in signup
+    user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'], general=request.POST['general'], school=request.POST['school'], international=request.POST['international'], employ=request.POST['employ'], scholarship=request.POST['scholarship'])
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: user.username
+2021-12-03 03:02:44,950 [INFO] accounts.views: username = admin
+2021-12-03 03:02:45,085 [INFO] accounts.views: user = admin
+2021-12-03 03:03:09,098 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\accounts\views.py", line 13, in signup
+    user = User.objects.create(username=request.POST['username'], email=request.POST['email'], dept=request.POST['dept'], general=request.POST['general'], school=request.POST['school'], international=request.POST['international'], employ=request.POST['employ'], scholarship=request.POST['scholarship'])
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: user.username
+2021-12-03 03:03:45,839 [INFO] accounts.views: username = wlsdyd5
+2021-12-03 03:03:45,975 [INFO] accounts.views: user = wlsdyd5
+2021-12-03 03:03:55,040 [INFO] accounts.views: username = admin
+2021-12-03 03:03:55,174 [INFO] accounts.views: user = admin
+2021-12-03 03:03:59,597 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:03:59,597 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:03:59,597 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:04:24,959 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 297, in email
+    for k in range(0,len(DEPT_HOMEPAGE_URLS_titles[j])):
+IndexError: list index out of range
+2021-12-03 03:05:28,121 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:05:28,514 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:05:28,997 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:05:30,719 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:06:05,362 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:06:13,325 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:06:17,727 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:06:17,727 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:06:17,727 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:06:42,964 [ERROR] django.request: Internal Server Error: /faq/eamil
+Traceback (most recent call last):
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\wlsdy\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py", line 297, in email
+    for k in range(0,len(DEPT_HOMEPAGE_URLS_titles[j])):
+IndexError: list index out of range
+2021-12-03 03:08:16,892 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:08:16,892 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:08:16,892 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:08:32,740 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:08:35,206 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:08:42,647 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:08:43,111 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:09:03,402 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:09:11,733 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:09:15,758 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:09:15,758 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:09:15,758 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:09:48,155 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:09:48,664 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:10:58,591 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:10:59,067 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:12:26,886 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:12:34,434 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:12:39,015 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:12:39,015 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:12:39,015 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:14:39,046 [INFO] django.utils.autoreload: C:\Users\wlsdy\Desktop\Smart.Notice.Bot\notice\faq\views.py changed, reloading.
+2021-12-03 03:14:39,615 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:14:46,772 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:14:53,296 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:14:58,028 [INFO] accounts.views: username = admin
+2021-12-03 03:14:58,164 [INFO] accounts.views: user = admin
+2021-12-03 03:14:59,848 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:14:59,848 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:14:59,848 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:27:39,306 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:27:45,038 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:27:56,239 [INFO] accounts.views: username = admin
+2021-12-03 03:27:56,373 [INFO] accounts.views: user = admin
+2021-12-03 03:27:58,614 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com']
+2021-12-03 03:27:58,614 [INFO] faq.views: user_dept = ['Software', 'DataScience']
+2021-12-03 03:27:58,614 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T']]
+2021-12-03 03:33:03,829 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-03 03:33:09,008 [WARNING] django.request: Not Found: /favicon.ico
+2021-12-03 03:37:00,010 [INFO] accounts.views: username = admin
+2021-12-03 03:37:00,146 [INFO] accounts.views: user = admin
+2021-12-03 03:37:05,806 [INFO] faq.views: user_email = ['wlsdyd4@naver.com', 'wlsdyd4@gmail.com', 'wlsdyd4@naver.com']
+2021-12-03 03:37:05,806 [INFO] faq.views: user_dept = ['Software', 'DataScience', 'Computer']
+2021-12-03 03:37:05,806 [INFO] faq.views: user_notice = [['T', 'T', 'T', 'T', 'T'], ['T', 'F', 'F', 'T', 'T'], ['T', 'T', 'F', 'T', 'F']]
+2021-12-03 03:39:24,716 [INFO] accounts.views: username = wlsdyd4
+2021-12-03 03:39:24,851 [INFO] accounts.views: user = wlsdyd4
+2021-12-03 03:40:40,380 [INFO] accounts.views: username = admin
+2021-12-03 03:40:40,515 [INFO] accounts.views: user = admin
