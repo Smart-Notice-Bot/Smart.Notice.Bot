@@ -55,10 +55,11 @@ def edit_info(request):
         user = User.objects.get(username=request.user.username)
         user.email=request.POST['email']
         user.dept=request.POST['dept']
+        user.general=request.POST['general']
+        user.school=request.POST['school']
+        user.international=request.POST['international']
         user.employ=request.POST['employ']
-        user.founded=request.POST['founded']
-        user.intern=request.POST['intern']
-        user.graduate_school=request.POST['graduate_school']
+        user.scholarship=request.POST['scholarship']
         user.save()
     return redirect('edit')
 
@@ -147,7 +148,7 @@ def email(request):
     for user in users:
         user_email.append(user.email)
         user_dept.append(user.dept)
-        user_notice.append([user.employ, user.intern, user.founded, user.graduate_school])
+        user_notice.append([user.general, user.school, user.international, user.employ, user.scholarship])
     logger.info('user_email = {}'.format(user_email))
     logger.info('user_dept = {}'.format(user_dept))
     #취업, 인턴, 창업, 대학원 순 

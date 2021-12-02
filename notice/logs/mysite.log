@@ -2145,3 +2145,62 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' execu
 2021-12-01 16:44:39,182 [WARNING] django.request: Not Found: /favicon.ico
 2021-12-01 16:44:45,589 [INFO] accounts.views: username = admin
 2021-12-01 16:44:45,827 [INFO] accounts.views: user = admin
+2021-12-02 19:08:34,962 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 19:09:47,996 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\notice\settings.py changed, reloading.
+2021-12-02 19:09:49,593 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 19:10:04,256 [INFO] accounts.views: username = admin
+2021-12-02 19:10:04,495 [INFO] accounts.views: user = admin
+2021-12-02 19:13:00,281 [WARNING] django.request: Not Found: /static/update.png
+2021-12-02 19:13:00,282 [WARNING] django.request: Not Found: /static/delete.png
+2021-12-02 19:14:03,007 [WARNING] django.request: Not Found: /static/update.png
+2021-12-02 19:14:03,012 [WARNING] django.request: Not Found: /static/delete.png
+2021-12-02 19:18:04,259 [INFO] accounts.views: username = admin
+2021-12-02 19:18:04,471 [INFO] accounts.views: user = admin
+2021-12-02 19:35:39,567 [INFO] accounts.views: username = admin
+2021-12-02 19:35:39,809 [INFO] accounts.views: user = admin
+2021-12-02 20:06:47,709 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:15,394 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:16,402 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:21,887 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:22,955 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:25,131 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:26,304 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:38,198 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:39,136 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:42,549 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:43,534 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:48,729 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:49,590 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:07:56,020 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:07:57,225 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:08:07,332 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:08:08,224 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:08:12,522 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\models.py changed, reloading.
+2021-12-02 20:08:13,808 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:09:39,070 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:09:40,137 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:09:45,147 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:09:45,923 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:09:51,884 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:09:52,827 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:09:56,715 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:09:57,708 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:10:02,715 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:10:03,648 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:10:10,982 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:10:12,504 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:10:15,781 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:10:16,703 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:10:26,895 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:10:27,925 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:10:32,335 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:10:33,680 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:11:46,307 [INFO] django.utils.autoreload: C:\Users\1114n\Desktop\Smart.Notice.Bot1\notice\accounts\views.py changed, reloading.
+2021-12-02 20:11:47,459 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:17:32,335 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 20:18:06,679 [INFO] accounts.views: username = 1234
+2021-12-02 20:18:06,878 [INFO] accounts.views: user = 1234
+2021-12-02 20:18:14,098 [INFO] accounts.views: username = admin
+2021-12-02 20:18:14,287 [INFO] accounts.views: user = admin
+2021-12-02 20:20:48,888 [INFO] accounts.views: username = 1234
+2021-12-02 20:20:49,066 [INFO] accounts.views: user = 1234

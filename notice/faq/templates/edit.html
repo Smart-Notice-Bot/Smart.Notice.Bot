@@ -9,10 +9,11 @@
         <th scope="col">이름</th>
         <th scope="col">이메일</th>
         <th scope="col">학과</th>
+        <th scope="col">일반</th>
+        <th scope="col">학사</th>
+        <th scope="col">국제</th>
         <th scope="col">취업</th>
-        <th scope="col">창업</th>
-        <th scope="col">인턴</th>
-        <th scope="col">대학원</th>
+        <th scope="col">장학</th>
       </tr>
     </thead>
     <tbody>
@@ -20,10 +21,11 @@
         <th scope="row">{{user.username}}</th>
         <td>{{user.email}}</td>
         <td>{{user.dept}}</td>
+        <td>{{user.general}}</td>
+        <td>{{user.school}}</td>
+        <td>{{user.international}}</td>
         <td>{{user.employ}}</td>
-        <td>{{user.founded}}</td>
-        <td>{{user.intern}}</td>
-        <td>{{user.graduate_school}}</td>
+        <td>{{user.scholarship}}</td>
       </tr>
     </tbody>
   </table>
@@ -47,38 +49,46 @@
       </select>
       <!-- <input name="dept" type="text"> -->
       <br>
-      취업:
-      <br>
-      <select name="employ" class="form-select" aria-label="Default select example">
-          <option selected>선택</option>
-          <option value="T">받음</option>
-          <option value="F">받지않음</option>
-      </select>
-      <br>
-      창업:
-      <br>
-      <select name="founded" class="form-select" aria-label="Default select example">
-          <option selected>선택</option>
-          <option value="T">받음</option>
-          <option value="F">받지않음</option>
-      </select>
-      <br>
-      인턴:
-      <br>
-      <select name="intern" class="form-select" aria-label="Default select example">
-          <option selected>선택</option>
-          <option value="T">받음</option>
-          <option value="F">받지않음</option>
-      </select>
-      <br>
-      대학원:
-      <br>
-      <select name="graduate_school" class="form-select" aria-label="Default select example">
-          <option selected>선택</option>
-          <option value="T">받음</option>
-          <option value="F">받지않음</option>
-      </select>
-      <br>
+      일반:
+    <br>
+    <select name="general" class="form-select" aria-label="Default select example">
+        <option selected>선택</option>
+        <option value="T">받음</option>
+        <option value="F">받지않음</option>
+    </select>
+    <br>
+    학사:
+    <br>
+    <select name="school" class="form-select" aria-label="Default select example">
+        <option selected>선택</option>
+        <option value="T">받음</option>
+        <option value="F">받지않음</option>
+    </select>
+    <br>
+    국제교류:
+    <br>
+    <select name="international" class="form-select" aria-label="Default select example">
+        <option selected>선택</option>
+        <option value="T">받음</option>
+        <option value="F">받지않음</option>
+    </select>
+    <br>
+    취업:
+    <br>
+    <select name="employ" class="form-select" aria-label="Default select example">
+        <option selected>선택</option>
+        <option value="T">받음</option>
+        <option value="F">받지않음</option>
+    </select>
+    <br>
+    장학:
+    <br>
+    <select name="scholarship" class="form-select" aria-label="Default select example">
+        <option selected>선택</option>
+        <option value="T">받음</option>
+        <option value="F">받지않음</option>
+    </select>
+    <br>
       <br>
       <input class="btn btn-primary" type="submit" value="완료">
   </form>
