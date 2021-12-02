@@ -15,7 +15,9 @@ permalink: /contactus/
 - example@email.com
 
 <h4>Please refer to the example below when sending an e-mail</h4>
-    <example> 
+
+      <example> 
+      
       name 
          Hong Gildong
 
