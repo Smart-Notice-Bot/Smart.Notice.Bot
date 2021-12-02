@@ -14,8 +14,10 @@
             {% endif %}
             <br>
             <br>
-            <a href="{% url 'update' blog.id %}"><img src="/static/update.png" alt="수정" width="30"></a>
-            <a href="{% url 'delete' blog.id %}"><img src="/static/delete.png" alt="삭제" width="30"></a>
+            <a href="{% url 'update' blog.id %}"><img src="https://e7.pngegg.com/pngimages/107/898/png-clipart-computer-icons-mirror-writing-correction-angle-triangle.png" 
+              alt="수정" width="30"></a>
+            <a href="{% url 'delete' blog.id %}"><img src="https://e7.pngegg.com/pngimages/836/813/png-clipart-web-application-computer-icons-delete-icon-game-text.png" 
+              alt="삭제" width="30"></a>
           </div>
         </div>
       </div>
@@ -27,6 +29,9 @@
         text-align:'center';
         border: 1px solid black;
         border-radius: 10px;
+        box-sizing:border-box;
+        padding-top:7px;
+        padding-bottom:7px;
       }
        #solid{
          font-weight: bold;
@@ -40,10 +45,14 @@
         font-weight: bold;
         background: #50bcdf;
        }
+       #last{
+         text-align:right;
+       }
        </style>
       <p id ='ba'> -댓글 목록-</p>
       {% for comment in comments %}
-      <p id ='border'><span><a id='solid'>{{user.username}}</a>님의 댓글</span> : {{comment.body}} - {{comment.date}}</p>
+      <p id ='border'><span><a id='solid'>{{user.username}}</a> ㆍ{{comment.date}}<br>
+        {{comment.body}} </p>
 
       {% endfor %}
       <form method="POST">
