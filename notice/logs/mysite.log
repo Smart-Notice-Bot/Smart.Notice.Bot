@@ -2204,3 +2204,13 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' execu
 2021-12-02 20:18:14,287 [INFO] accounts.views: user = admin
 2021-12-02 20:20:48,888 [INFO] accounts.views: username = 1234
 2021-12-02 20:20:49,066 [INFO] accounts.views: user = 1234
+2021-12-02 20:59:48,466 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 21:08:22,073 [INFO] accounts.views: username = admin
+2021-12-02 21:08:22,223 [INFO] accounts.views: user = admin
+2021-12-02 21:12:57,135 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 21:13:55,353 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 21:15:08,375 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2021-12-02 21:23:28,889 [INFO] accounts.views: username = admin
+2021-12-02 21:23:29,052 [INFO] accounts.views: user = None
+2021-12-02 21:23:34,430 [INFO] accounts.views: username = admin
+2021-12-02 21:23:34,593 [INFO] accounts.views: user = admin
