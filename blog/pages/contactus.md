@@ -18,7 +18,9 @@ permalink: /contactus/
     <example> 
       name 
          Hong Gildong
+
       email address
          example@email.com
+         
       message
          Any advice or question is welcomed.
