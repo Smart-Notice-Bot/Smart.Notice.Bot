@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Smart.Notice.Bot
-permalink: /
+permalink: Smart.Notice.Bot/
 ---
 
 # Smart Notice Bot
