@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Smart.Notice.Bot
-permalink: Smart.Notice.Bot/
+permalink: /Smart.Notice.Bot/
 ---
 
 # Smart Notice Bot
@@ -17,7 +17,7 @@ permalink: Smart.Notice.Bot/
  <ul>
   {% for post in site.categories.jekyll %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="/Smart.Notice.Bot{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
