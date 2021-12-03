@@ -15,7 +15,7 @@ permalink: /
 
 ## Latest News
  <ul>
-  {% for post in site.posts.2021 %}
+  {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
