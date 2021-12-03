@@ -1,7 +1,7 @@
 ---
 title: "Create Website"
 date: 2021-11-15 11:23:35 -0500
-categories: jekyll update
+categories: jekyll
 ---
 <br>
 We finally created a website! We will contact students through this website. <br>

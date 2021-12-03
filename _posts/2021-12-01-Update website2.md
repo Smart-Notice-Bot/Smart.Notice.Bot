@@ -1,7 +1,7 @@
 ---
 title: "Update Website2"
 date: 2021-12-01 1:24:11 -0500
-categories: jekyll update
+categories: jekyll
 
 ---
 <br>

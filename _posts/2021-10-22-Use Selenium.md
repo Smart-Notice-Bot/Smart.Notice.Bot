@@ -1,7 +1,7 @@
 ---
 title:  "Use Selenium"
 date: 2021-10-22 23:37:43 -0500
-categories: jekyll update
+categories: jekyll
 ---
 <br>
 We used selenium crawling important information on the website.<br>

@@ -1,7 +1,7 @@
 ---
 title: "Update Website"
 date: 2021-11-26 21:24:34 -0500
-categories: jekyll update
+categories: jekyll
 
 ---
 <br>
